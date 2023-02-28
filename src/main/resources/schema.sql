@@ -1,0 +1,8 @@
+
+
+CREATE TABLE IF NOT EXISTS todolist (
+  id SERIAL PRIMARY KEY,
+  key VARCHAR(255) ,
+  todo VARCHAR(255),
+  finish BOOLEAN
+);
